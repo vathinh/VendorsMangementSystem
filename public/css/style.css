@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/bg_login.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+}
+.login-form{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+
+}
+.login-form h1{
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    border-bottom: 2px solid whitesmoke;
+    padding: 30px 0;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+.form .input-box{
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 2px solid #ffffff;
+
+}
+.form .input-box input{
+    background: transparent;
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: 500;
+    border: 0;
+}
+.form .input-box input::placeholder{
+    color: whitesmoke;
+}
+.form .input-box i{
+    margin-right: 10px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.form .input-box i:hover{
+    margin-right: 10px;
+    font-size: 20px;
+    color: #ffffff;
+
+}
+.form .input-box:last-child{
+    border-bottom: 0;
+    margin-top: 10px;
+    background:linear-gradient(55deg, rgb(0, 183, 255),rgba(247, 245, 245, 0.493),rgba(255,255,255,0.9));
+    width: 100px;
+    border-radius: 10rem;
+    padding: 10px 10px;
+    text-align: center;
+    margin-left: 60%;
+}
+
+/* ---------------------------------------------- */
